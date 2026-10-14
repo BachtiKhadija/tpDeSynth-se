@@ -1,0 +1,56 @@
+#Exercice1
+"""nom=input("saisir votre nom : ")
+prenom=input("saisir votre prenom : ")
+age=int(input("saisir votre age : ")) 
+#print(nom);print(prenom);print(age)
+print(nom,prenom,age,sep="\n")"""
+#Exercice 2
+"""a,b,c,d=10,20,30,40
+
+print(a,b,c,d,sep="-")"""
+#Exercice 3 
+"""x,y,z="Python","JavaScript","PHP"
+
+print(x,y,z,sep="|")"""
+#Exercice4
+"""print("bonjour",end=" ")
+print("tout le monde!")"""
+#exercice 8 
+"""
+var prixU,prixT:Reel 
+var qte :entier
+Debut 
+   lire prixU,qte
+   prixT=prixU*qte
+   Ecrire "le prix a payer est : ",prixT
+Fin
+"""
+"""prixU=float(input("saisir le prix unitaire : "))  
+qte=int(input("saisir la quantité : "))  
+prixT=prixU*qte
+print("le prix a payer est : ",prixT,sep="=>",end="DH.\n")"""
+
+#Exercice 10
+"""
+var n1,n2,n3,moy :Réel
+Debut 
+  lire n1,n2,n3 
+  moy=(n1+n2+n3)/3
+  ecrire "la moyenne est : ",moy 
+Fin
+"""
+"""n1,n2,n3=float(input("note 1 : ")),float(input("note 2 : ")),float(input("note 3 : "))
+moy=(n1+n2+n3)/3
+print(f"la moyenne est : {moy}")
+print(f"la moyenne est : {moy:.2f}")"""
+
+#Exercice 12
+
+print(10+2*3**2)
+print(30-12/3*2)#  12/3 =4   4*2=8   30-8=22
+
+
+
+
+
+
