@@ -1,0 +1,90 @@
+"""
+programme qui demande le pu et la qte et applique une remise de 5% sir le prix Total 
+est superieur à 500
+
+ici on va utiliser si :
+#syntaxe générale de si :
+si condition alors 
+   .........
+finsi 
+
+Condition simple
+****************
+
+***condition =>comparaison entre deux valeurs qui retourne soit vrai soit faux
+             =>pour créer une condition on utilise les opérateurs : < <= > >= != ==
+exemple : 
+  13>=5  =>True 
+  18<=15 => False
+  13!=14 =>True
+  12==12  =>True
+NB. pour créer une cndition simple on utilise < <= > >= != ==
+
+Condition Complexe:
+******************
+
+on utilise  : and , or , !
+
+Exemple : 
+  un programme qui demande age et moyenne , puis affiche "admis" si 
+  age >= 18  et moy >=12.
+  
+  var age:Entier
+  var moy : Réel
+ Debut
+    lire age,moy 
+    
+    si  age>=18 and moy>=12 alors
+        ecrire("admis")
+    sinon
+        ecrire("non admis")
+    FinSi
+FinProgramme
+
+  
+
+
+"""
+"""age=int(input("saisir age : "))
+moy=float(input("Saisir moyenne : "))
+if  age>=18 and moy>=12 :
+    print("admis")
+else:
+    print("non admis")"""
+"""
+  si imbriqué 
+un programme qui lit le montant a payer puis une remise de : 
+    *10% si le montant >5000
+    *6% si le montant est entre 5000 et 2000
+    *4% si le montant entre 2000 et 500 
+    *2% si le montant est inférieur à 500
+    
+****Algorithme
+var montant, prixT,remise : Réel
+Debut 
+  lire montant 
+  si montant>5000 alors
+      remise=montant * 0.1
+  sinon si montant>2000 alors
+      remise =montant*0.06
+  sinon si montant>500 alors
+      remise=montant*0.04
+  sinon 
+      remise =montant*0.02
+  fin si
+  prixT=montant-remise
+  ecrire "le montant à payer est : ",prixT
+Fin
+"""
+montant=float(input("Saisir le montant : "))
+if montant>5000:
+    remise=montant * 0.1
+elif montant>2000 :
+    remise =montant*0.06
+elif montant>500 :
+    remise=montant*0.04
+else: 
+    remise =montant*0.02
+prixT=montant-remise
+print(f"le montant à payer est :{prixT}")
+
