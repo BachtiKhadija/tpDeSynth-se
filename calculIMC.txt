@@ -1,0 +1,19 @@
+
+"""
+var poids ,taille,imc:Réel
+
+debut
+
+    Ecrire "saisir le poids (kg)"
+    lire poids
+    Ecrire "saisir la taille (CM)"
+    lire taille
+    imc=poids/taille**2
+    Ecrire "l 'imc est : ",imc
+Fin
+
+"""
+poids=float(input("saisir le poids (kg) ")) #poids est réel
+taille=float(input("saisir la taille (m) ")) #taille est réel
+imc=poids/taille**2
+print("l 'imc est : ",imc)
