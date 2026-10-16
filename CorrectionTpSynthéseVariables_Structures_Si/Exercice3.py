@@ -9,7 +9,8 @@ print("Article\tqte\tpht")
 print(f"{pu}\t{qte}\t{pht}");print(f"remise : {remise}")
 print(f"montant à payer : {pht-remise}")"""
 
-print("hello\tworld")
+print("hello\tworld")#\nom printable char
+#\n \s
 
 
 
